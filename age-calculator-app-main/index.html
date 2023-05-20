@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link  />
+		<!-- displays site properly based on user's device -->
+	
+		<title>Age calculator app</title>
+
+		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+		
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="./styles/style.css" />
+	</head>
+	<body>
+		<header>
+			<div class="input-flex">
+				<div class="input-container">
+					<label for="Day" class="LABELS_NAME">DAY</label>
+					<input id="day" type="text" min="1" max="31" placeholder="DD" />
+					<small id="error-day-field">This field is required</small>
+				</div>
+				<div class="input-container">
+					<label for="Month" class="LABELS_NAME">MONTH</label>
+					<input id="month" type="text" min="1" max="12" placeholder="MM"  />
+					<small id="error-month-field">This field is required</small>
+				</div>
+				<div class="input-container">
+					<label for="Year" class="LABELS_NAME">YEAR</label>
+					<input id="year" type="text" placeholder="YYYY"  min="1" max="2023"/>
+					<small id="error-year-field">This field is required</small>
+				</div>
+
+			</div>
+			</header>
+<div class="container">
+	<main>
+<span class="submitArea">
+	<hr />
+	<button id="submitBtn">
+		<img src="./assets/images/icon-arrow.svg" />
+	</button>
+</span>
+
+			<div class="output-container">
+				<p><em class="output-year">-- </em> years</p>
+				<p><em class="output-month">-- </em> months</p>
+				<p><em class="output-day">-- </em> days</p>
+			</div>
+</main>
+</div>
+		
+		</div>
+		<footer>
+			<p>&copy; 2023 Nermeen Nasim - Age Calculator App. All rights reserved.</p>
+		</footer>
+
+	<script type="text/javascript" src="./script/script.js">
+		
+
+	</script>
+	</body>
+</html>
